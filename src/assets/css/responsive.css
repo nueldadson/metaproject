@@ -1,0 +1,120 @@
+@media (max-width: 575.98px) { 
+    .topTitle{ 
+        font-size: 46px;
+        margin-top: 2em;
+        text-align: center;
+    }
+    .topSubTitle{ 
+        font-size: 28px;
+        text-align: center;
+    }
+    .topSubContent{ 
+        font-size: 22px;
+        text-align: center;
+    }
+    .topImg{
+        width: 147px; height: 202px;
+        position: absolute;
+        left: 110px;
+        margin-top: -2em;
+        border-radius: 16px;
+        text-align: center;
+    }
+    .maintitle{
+        font-size: 26px;
+    }
+    .aboutTitle{
+        font-size: 46px;
+    }
+    .aboutSubTitle{ font-size: 28px;}
+    .aboutSubContent{ font-size: 18px;}
+    .interiorTitle{
+        padding-top: 50%;
+    }
+    .aboutImg{
+        height: 265px;
+        width: 180px;
+    }
+    .aboutImg2{
+        height: 265px;
+        width: 180px;
+    }
+    .logoImg{
+        width: 132px;
+        height: 47px;
+    }
+    .testimonialTitle{
+        font-size: 36px;
+    }
+    .specialsPrice{
+        margin-top: -2em;
+    }
+    .specialsIcon{
+        margin-top: -2em;
+    }
+    .bookingName{
+        font-size: 36px;
+    }
+    .bookingTitle{
+        margin-top: 5em;
+        font-size: 36px;
+    }
+    .notFoundTitle{
+        font-size: 36px;
+    }
+    .confirmedTitle{
+        font-size: 36px;
+    }
+    .notFoundImg{
+        width: 287px; height: 282px;
+    }
+    .notFoundTitle{
+        font-size: 36px;
+    }
+    .footerImg{
+        width: 187px; height: 82px;
+    }
+    .bookingImg{
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .topTitle{ font-size: 48px; margin-top: 2em;}
+    .topSubTitle{ font-size: 28px;}
+    .topSubContent{ font-size: 22px;}
+    .topImg{
+        width: 187px; height: 202px;
+        margin-top: -2em;
+        border-radius: 16px;
+    }
+    .maintitle{
+        font-size: 46px;
+    }
+    .notFoundImg{
+        width: 287px; height: 282px;
+    }
+    .notFoundTitle{
+        font-size: 36px;
+        position: relative;
+        top: 120px;
+    }
+    .bookingImg{
+        display: none;
+    }
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .logoImg{
+        width: 212px;
+        height: 57px;
+    }
+ }
+
+@media (max-width: 1399.98px) { 
+
+ }

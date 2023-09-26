@@ -1,0 +1,461 @@
+.topFixedBanner{
+    background-color: #495E57;
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.testimonialBanner{
+    background-color: #495E57;
+    margin-top: 3em;
+    min-height: 569px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutBanner{
+    background-color: #ffffff;
+    margin-top: 3em;
+    min-height: 569px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.interiorBanner{
+    background-image: url('/src/assets/indoor.jpeg');
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    filter: brightness(50%);
+}
+.bookingBanner{
+    background-image: url('/src/assets/booking.jpeg');
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    filter: brightness(50%);
+}
+.footerFixedBanner{
+    background-color: #495E57;
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bookingFixedBanner{
+    background-color: #495E57;
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.notFoundBanner{
+    background-color: #495E57;
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.confirmedBookingBanner{
+    background-color: #ffffff;
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.testimonialTitle{
+    color: #ffffff;
+    font-family: 'Markazi Text';
+    font-weight: 500;
+    font-size: 74px;
+}
+.interiorTitle{
+    color: #ffffff;
+    font-family: 'Markazi Text';
+    font-weight: 500;
+    font-size: 58px;
+    text-align: center;
+    padding-top: 20%;
+}
+/* .topBannerOverlay{
+    position: absolute;
+    min-height: 550px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+} */
+.topTitle{
+    font-family: 'Markazi Text';
+    font-weight: 700;
+    font-size: 92px;
+    color: #F4CE14;
+    margin-top: 1em;
+    /* left: 212px; */
+}
+.bookingTitle{
+    font-family: 'Markazi Text';
+    font-weight: 700;
+    font-size: 72px;
+    color: #F4CE14;
+    margin-top: 2em;
+}
+.topSubTitle{
+    font-family: 'Markazi Text';
+    font-weight: 550;
+    color: #ffffff;
+    font-size: 44px;
+    margin-top: -2em;
+    /* left: 212px; */
+}
+.topSubContent{
+    font-family: 'Markazi Text';
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 38px;
+    /* left: 212px; */
+}
+.topImg{
+    border-radius: 59px;
+    height: 574.36px;
+    width: 426px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 8em;
+    box-shadow: 0 0 8px 0 rgb(4, 55, 105,0.2);
+}
+.topButton{
+    width: 276px;
+    height: 79.37px;
+    color: #ffffff;
+    background-color: #F4CE14;
+    border-radius: 18px;
+    margin-bottom: 3em;
+}
+/* About Section Styles */
+.aboutTitle{
+    font-family: 'Markazi Text';
+    font-weight: 500;
+    font-size: 74px;
+    color: #000000;
+    /* left: 212px; */
+}
+.notFoundTitle{
+    position: relative;
+    top: 170px;
+    font-family: 'Markazi Text';
+    font-weight: 500;
+    font-size: 54px;
+    color: #ffffff;
+    /* left: 212px; */
+}
+.confirmedTitle{
+    font-family: 'Markazi Text';
+    font-weight: 500;
+    font-size: 74px;
+    color: #495E57;
+    /* left: 212px; */
+}
+.bookingName{
+    font-family: 'Markazi Text';
+    font-weight: 500;
+    font-size: 74px;
+    color: #ffffff;
+}
+.aboutSubTitle{
+    font-family: 'Inter';
+    font-weight: 500;
+    color: #000000;
+    font-size: 30px;
+    margin-top: -2em;
+    /* left: 212px; */
+}
+.aboutSubContent{
+    font-family: 'Karla';
+    font-weight: 500;
+    color: #495E57;
+    font-size: 25px;
+    /* left: 212px; */
+}
+.imageStack{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    margin-bottom: 3em;
+}
+.aboutImg{
+    border-radius: 30px;
+    margin-top: 4em;
+    height: 365px;
+    width: 280px;
+    grid-column: 1/span 8;
+    grid-row: 1;
+    z-index: 1; 
+}
+.aboutImg2{
+    border-radius: 30px;
+    height: 365px;
+    width: 280px;
+    grid-column: 4/ -1;
+    grid-row: 1; 
+}
+.notFoundImg{
+    border-radius: 30px;
+    height: 400px;
+    width: 380px;
+    position: relative;
+    top: 100px;
+}
+.bookingImg{
+    margin-top: 1em;
+    border-radius: 30px;
+    width: 100%;
+    height: 80%;
+}
+.codingIcon{
+    height: 240px;
+    width: 240px;
+}
+.onlineIcon{
+    height: 140px;
+    width: 140px;
+}
+.professionalIcon{
+    height: 140px;
+    width: 140px;
+}
+.specialsImg{
+    position: relative;
+    border-radius: 18px;
+    top: 14px;
+}
+.specialsContent{
+    margin-top: 1em;
+    height: 260px;
+    width: 400px;
+    background-color: #EDEFEE; 
+    position: relative;
+    z-index: 1;
+}
+.specialsName{
+    color: #000000;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 700;
+}
+.specialsPrice{
+    color: #F28B11;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 700;
+    float: right;
+}
+.specialsDescription{
+    color: #495E57;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 500;
+}
+.specialsSubtitle{
+    color: #000000;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 600;
+}
+.specialsIcon{
+    width: 13px;
+    height: 15px;
+    margin-top: 1em;
+    float: right;
+}
+.testimonialsCard{
+    background-color: #ffffff;
+    border-radius: 18px;
+    display: inline;
+    margin-left: 1em;
+    width: 330px;
+    height: 320px; 
+}
+.testimonialsImg{
+    width: 183.8px;
+    height: 174.27px;
+    border-radius: 18px;
+    border: solid 9px #EE9972;
+    margin: 18.04px 19px 28.16px 19px;
+}
+.testimonialsIcon{
+    margin-top: -1em;
+}
+.testimonialsComment{
+    margin-top: -1em;
+    font-family: 'Karla';
+    color: #495E57;
+    font-weight: 500;
+    font-size: 16px;
+}
+.footerImg{
+    border-radius: 17px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+.footerTitle{
+    font-family: 'Karla';
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 30px;
+}
+.footerLinks{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla';
+    color: #EDEFEE;
+    font-weight: 500;
+    font-size: 25px;
+}
+.fontIcon a {
+    text-decoration: none;
+}
+.fontIcon a:hover {
+    color: #F4CE14; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+.copyright{
+    color: #EDEFEE;
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 16px;
+}
+/* .testimonialsCard:hover{
+    margin: 5px 5px 5px 5px;
+    height: 22em;
+    padding: 60px 30px 60px 30px;
+    box-shadow: 0 0 16px 0 rgba(245, 212, 23, 0.986);
+    transform: scale(1.03);
+} */
+.navTitle{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 30px;
+}
+.navTitleScroll{
+    font-family: 'Montserrat', sans-serif;
+    color: #000221 !important;
+    font-weight: 700;
+    font-size: 30px;
+}
+.navBackground{
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: rgb(00, 00, 00,0.0)!important;
+}
+.navBackgroundScroll{
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: #ffffff;
+}
+.navItem{
+    text-decoration: none !important;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+}
+.navItem .active{
+    color: #495E57;
+}
+.navItemScroll{
+    text-decoration: none !important;
+    font-family: 'Montserrat', sans-serif;
+    color: #000221 !important;
+    font-weight: 700;
+    font-size: 16px;
+}
+.section-title {
+    margin-bottom: 45px;
+    position: relative;
+}
+.section-title .sub-title{
+    font-weight: 500;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.intro-area-inner{
+    /* box-shadow: 0 0 30px rgb(0 0 0 / 7%); */
+    background: #fff;
+    padding: 50px 0 0;
+    border-radius: 8px;
+}
+.maintitle{
+    font-family: 'Markazi Text';
+    font-weight: medium 500;
+    color: #000221;
+    font-size: 84px;
+}
+.intro-footer {
+    padding: 30px 30px 10px;
+    border-radius: 0 0 7px 7px;
+}
+.bg-base{
+    background: rgba(60, 179, 113);
+}
+.sideImg{
+    margin-top: -15px;
+}
+.homeIntro{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #000221;
+    font-size: 16px;
+}
+.specialsName{
+    color: #000000;
+    margin-top: 1em;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 700;
+}
+.specialsPrice{
+    color: #F28B11;
+    margin-top: 1em;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 700;
+    float: right;
+}
+.specialsDescription{
+    color: #495E57;
+    margin-top: 1em;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 500;
+}
+.specialsSubtitle{
+    color: #000000;
+    margin-top: 1em;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 600;
+}
+.specialsIcon{
+    width: 13px;
+    height: 15px;
+    margin-top: 1em;
+    float: right;
+}
