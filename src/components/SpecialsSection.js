@@ -2,7 +2,7 @@ import React, { useEffect, useState }  from "react";
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import greeksalad from '../assets/greek salad.jpg';
 import Bruschetta from '../assets/bruchetta.svg';
-import pasta from '../assets/pasta.jpeg';
+import pasta from '../assets/pasta.jpg';
 import icon from '../assets/icon.png';
 
 const specials = [
